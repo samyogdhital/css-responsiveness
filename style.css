@@ -1,0 +1,44 @@
+body {
+  background: #d9e6ff;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  /* background-position: center; */
+}
+.topic {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+.topic > h1 {
+  color: tomato;
+}
+.topic > p {
+  flex-basis: 100%;
+}
+.content {
+  text-align: center;
+}
+.split {
+  display: flex;
+  /* flex-direction: column; */
+  /* height: ; */
+}
+
+.split > * {
+  flex: 1 1 50%;
+  height: 200px;
+  flex-wrap: nowrap;
+  text-align: center;
+  align-items: center;
+}
+.split_p {
+  flex: 1 1 100%;
+}
+.split_p2 {
+  flex: 1 1 100%;
+}
+
+.split > * {
+  margin: 5px;
+  border: 2px solid red;
+}
